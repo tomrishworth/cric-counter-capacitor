@@ -1,0 +1,153 @@
+// Custom colors
+$green: #27ab83;
+$light: #f0f4f8;
+
+// Bootstrap Overrides
+$theme-colors: (
+  "primary": $green,
+  // "secondary": $blue-dark,
+    // "dark": $blue-dark
+);
+
+$font-family-sans-serif: "Roboto", Helvetica, Arial, sans-serif;
+
+$navbar-dark-color: #fff;
+
+$border-color: #ddd;
+// $body-color: $blue-dark;
+// $body-bg: $light;
+$text-muted: #767676;
+$text-subtle: #adb5bd;
+$card-border-color: $border-color;
+$dropdown-border-color: $border-color;
+
+$enable-shadows: true;
+// $box-shadow: 0 15px 35px 0 rgba(42, 51, 83, 0.12),
+//   0 5px 15px rgba(0, 0, 0, 0.06);
+$box-shadow: 0 10px 20px 0 rgba(42, 51, 83, 0.12), 0 3px 6px rgba(0, 0, 0, 0.06);
+$dropdown-box-shadow: $box-shadow;
+
+$border-radius-lg: 0.75rem;
+
+// Type scale
+$text-xxs: 0.6875rem; // 11px
+$text-xs: 0.75rem; // 12px
+$text-sm: 0.875rem; // 14px
+$text-base: 1rem; // 16px
+$text-md: 1.125rem; // 18px
+$text-lg: 1.25rem; // 20px
+$text-xl: 1.5rem; // 24px
+$text-2xl: 1.875rem; // 30px
+$text-3xl: 2.25rem; // 36px
+$text-4xl: 3rem; // 48px
+$text-5xl: 3.75rem; // 60px
+$text-6xl: 4.5rem; // 72px
+
+$font-size-base: 1rem;
+$h1-font-size: $text-3xl;
+$h2-font-size: $text-2xl;
+$h3-font-size: $text-xl;
+$h4-font-size: $text-lg;
+$h5-font-size: $text-md;
+$h6-font-size: $font-size-base;
+$font-weight-semibold: 500;
+$font-weight-bold: 700;
+$headings-font-weight: 700;
+
+// Buttons
+$btn-border-radius: 8px;
+
+// Modals
+$modal-header-padding-y: 1rem;
+$modal-header-padding-x: 3rem;
+$modal-header-padding: $modal-header-padding-y $modal-header-padding-x;
+$modal-content-bg: $light;
+$modal-inner-padding: 1rem 3rem;
+$modal-footer-border-color: transparent;
+$modal-dialog-margin-y-sm-up: 3rem;
+
+// Dropdowns
+$dropdown-padding-y: 0;
+$dropdown-item-padding-y: 0.5rem;
+$dropdown-item-padding-x: 1rem;
+// $dropdown-link-color: $blue-dark;
+
+// Animations
+$speed-slow: 150ms;
+$speed-slower: 250ms;
+$ease: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+$gradient: linear-gradient(135deg, #8f75da 0, #727cf5 60%);
+
+// Spacer variables
+$spacer: 15px;
+$spacers: ();
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 0.25
+    ),
+    2: (
+      $spacer * 0.5
+    ),
+    3: (
+      $spacer * 0.75
+    ),
+    4: $spacer,
+    5: (
+      $spacer * 1.5
+    ),
+    6: (
+      $spacer * 2
+    ),
+    7: (
+      $spacer * 3
+    ),
+    8: (
+      $spacer * 4
+    ),
+    9: (
+      $spacer * 6
+    ),
+    10: (
+      $spacer * 8
+    ),
+    11: (
+      $spacer * 12
+    ),
+    12: (
+      $spacer * 16
+    ),
+    13: (
+      $spacer * 24
+    ),
+    14: (
+      $spacer * 32
+    ),
+    15: (
+      $spacer * 40
+    ),
+    16: (
+      $spacer * 48
+    )
+  ),
+  $spacers
+);
+
+$spacer-1: map-get($spacers, 1);
+$spacer-2: map-get($spacers, 2);
+$spacer-3: map-get($spacers, 3);
+$spacer-4: map-get($spacers, 4);
+$spacer-5: map-get($spacers, 5);
+
+// Breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1300px,
+  xxxl: 1440px
+);

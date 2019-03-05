@@ -1,0 +1,164 @@
+// Colors
+
+.text-subtle {
+  color: $text-subtle;
+}
+
+// Font sizes
+
+.text-xxs {
+  font-size: $text-xxs;
+}
+
+.text-xs {
+  font-size: $text-xs;
+}
+
+.text-sm {
+  font-size: $text-sm;
+}
+
+.text-base {
+  font-size: $text-base;
+}
+
+.text-md {
+  font-size: $text-md;
+}
+
+.text-lg {
+  font-size: $text-lg;
+}
+
+.text-xl {
+  font-size: $text-xl;
+}
+
+.text-2xl {
+  font-size: $text-2xl;
+}
+
+.text-3xl {
+  font-size: $text-3xl;
+}
+
+.text-4xl {
+  font-size: $text-4xl;
+}
+
+.text-5xl {
+  font-size: $text-5xl;
+}
+
+.text-6xl {
+  font-size: $text-6xl;
+}
+
+// Line Height
+.line-height-none {
+  line-height: 1;
+}
+
+.line-height-tight {
+  line-height: 1.25;
+}
+
+.line-height-normal {
+  line-height: 1.5;
+}
+
+.line-height-loose {
+  line-height: 2;
+}
+
+// Font Weight
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-semibold {
+  font-weight: 500;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.desktop-br {
+  @include media-breakpoint-down(sm) {
+    display: none;
+  }
+}
+
+.shadow {
+  box-shadow: $box-shadow;
+}
+
+.rounded-sm {
+  border-radius: $border-radius-sm;
+}
+
+.rounded-lg {
+  border-radius: $border-radius-lg;
+}
+
+.pull-up-1 {
+  position: relative;
+  top: -1px;
+}
+
+.pull-up-2 {
+  position: relative;
+  top: -2px;
+}
+
+.pull-up-3 {
+  position: relative;
+  top: -3px;
+}
+
+.pull-down-1 {
+  position: relative;
+  top: 1px;
+}
+
+.pull-down-2 {
+  position: relative;
+  top: 2px;
+}
+
+.pull-down-3 {
+  position: relative;
+  top: 3px;
+}
+
+.pull-left-1 {
+  position: relative;
+  left: -1px;
+}
+
+.pull-left-2 {
+  position: relative;
+  left: -2px;
+}
+
+.pull-left-3 {
+  position: relative;
+  left: -3px;
+}
+
+.pull-right-1 {
+  position: relative;
+  left: 1px;
+}
+
+.pull-right-2 {
+  position: relative;
+  left: 2px;
+}
+
+.pull-right-3 {
+  position: relative;
+  left: 3px;
+}

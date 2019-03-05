@@ -1,0 +1,6 @@
+{
+  "appId": "com.criccounter.app",
+  "appName": "Cric Counter",
+  "bundledWebRuntime": true,
+  "webDir": "dist"
+}
